@@ -1,5 +1,7 @@
-followers = 47
-print(type(followers))
+years = input("Please enter number of years: ")
+months = input("Please enter number of months: ")
 
-result = f'You have {followers} followers!'
+days = int(years) * 365 + int(months) * 30
+
+result = "{} years and {} months is equal with {}".format(years, months, str(days))
 print(result)
