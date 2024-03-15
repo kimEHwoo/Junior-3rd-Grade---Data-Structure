@@ -1,6 +1,8 @@
-years = int(input("Please enter number of years: "))
-months = int(input("Please enter number of months: "))
+years = input("Please enter number of years: ")
+months = input("Please enter number of months: ")
 
-days = years * 365 + months * 30
+days = int(years) * 365 + int(months) * 30
 
-print(days)
+result = years + " years and " + months + " months are equal with " + str(days) + " days"
+
+print(result)
