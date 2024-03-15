@@ -1,7 +1,18 @@
-years = input("Please enter number of years: ")
-months = input("Please enter number of months: ")
+my_list = [1,2,3,4,5]
+print(my_list[1:4])
+print(my_list[::-1])
 
-days = int(years) * 365 + int(months) * 30
+my_list.append(6)
+my_list.extend([7,8])
+del my_list[1]
 
-result = "{} years and {} months is equal with {}".format(years, months, str(days))
-print(result)
+print(my_list)
+
+list1 = [1,2,3]
+list2 = [4,5,6]
+concatenated_list = list1 + list2
+print(concatenated_list)
+repeated_list = list1 * 3
+print(repeated_list)
+print(2 in list1)
+print(len(list1))
