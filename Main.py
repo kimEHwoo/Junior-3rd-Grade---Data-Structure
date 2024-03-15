@@ -1,6 +1,6 @@
-company = 'IBM'
-print(company)
+years = int(input("Please enter number of years: "))
+months = int(input("Please enter number of months: "))
 
-'''
-dlsdkd
-'''
+days = years * 365 + months * 30
+
+print(days)
