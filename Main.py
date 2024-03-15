@@ -1,16 +1,15 @@
-my_tuple = (1,2,3)
-print(my_tuple)
-my_tuple = 1,2,3
-print(my_tuple)
 
-tuple1 =1,2,3
-tuple2 =4,5,6
 
-concatenated_tuple = tuple1+tuple2
-print(concatenated_tuple)
+set1 = {1,2,3}
+set2 = {4,5,6}
+union_set = set1 | set2
+print(union_set)
+intersection_set = set1 & set2
+print(intersection_set)
+difference_set = set1 - set2
+print(difference_set)
+symmetric_difference_set = set1 ^ set2
+print(symmetric_difference_set)
 
-repeated_tuple = tuple1 * 3
-print(repeated_tuple)
-
-print(2 in tuple1)
-print(len(tuple1))
+frozen_set = frozenset([1,2,3])
+print(frozen_set)
